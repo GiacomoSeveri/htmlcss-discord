@@ -27,6 +27,11 @@ header {
     width: 800px;
 }
 
+.last-section-img  img {
+    width: 1000px;
+}
+
+
 .navigation {
     margin: 20px;
 }
@@ -177,13 +182,30 @@ line-height: 30px;
     align-self: flex-end;
 }
 
-.flast {
-    background-color: #228B22;
-    margin: 60px;
-    border: 2px dashed #000;
-    width: 79%;
-    height: 950px;
+.last-item-odd {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px;
+    padding-right: 185px;
+    margin: 0 auto;
 }
+
+.last-item-script {
+    margin: 60px;
+    margin-left: 130px;
+    margin-right: 2px;
+    width: 35%;
+    height: 550px;
+    text-align: center;
+}
+
+.last-item-title {
+
+}
+
 
 .interaction {
     background-color: #23272A;
