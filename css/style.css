@@ -9,6 +9,9 @@
 /* Generics*/
 
 body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     background-color: #ffffff;
     font-family: arial;
 }
@@ -121,6 +124,16 @@ span {
     align-items: center;
     padding: 100px;
     padding-right: 185px;
+    margin: 0 auto;
+}
+
+.description{
+padding: 10px;
+margin: 15px;
+font-size: 20px;
+font-weight: bold;
+margin-bottom: 40px;
+line-height: 30px;
 }
 
 .item-img {
@@ -137,30 +150,31 @@ span {
 }
 
 .item-odd {
-    background-color: #D3D3D3;
+    background-color: #fff;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    padding: 100px;
+    padding-right: 185px;
+    margin: 0 auto;
 }
 
 .item-script-odd {
-    background-color: #FFC0CB;
     margin: 60px;
     margin-right: 0px;
-    border: 2px dashed #000;
     margin-left: 200px;
     width: 35%;
     height: 550px;
+    
 }
 
 .item-img-odd {
-    background-color: #1E90FF;
     margin: 60px;
     margin-left: 0px;
-    border: 2px dashed #000;
     margin-right: 200px;
     width: 70%;
     height: 550px;
+    align-self: flex-end;
 }
 
 .flast {
