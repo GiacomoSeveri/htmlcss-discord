@@ -23,72 +23,12 @@ header {
     align-items: center;
 }
 
-.item-img  img {
-    width: 800px;
-}
-
-.last-section-img  img {
-    width: 1000px;
-}
-
-
-.navigation {
-    margin: 20px;
-}
-
-div {
-    display: inline-table;
-}
-
 span {
     padding: 15px;
 }
 
-.logo {
-    
-    vertical-align: middle;
-    color: #fff;
-    font-size: 20px;
-    padding: 10px;
-}
-
-.nav {
-    width: 601px;
-    text-align: center;
-    vertical-align: middle;
-    color: #fff;
-    font-size: 20px;
-    padding: 10px;
-    margin-left: 300px;
-    margin-right: 300px;
-}
-
-.login {
-    
-    vertical-align: middle;
-    color: #000;
-    background-color: #fff;
-    font-size: 20px;
-    border-radius: 35%;
-    padding: 10px;
-    text-align: end;
-}
-
-.introduction {
-    background-image: url(../img/jumbo.png);
-    background-size: cover;
-    display: flex;
-    padding-bottom: 80px;
-    justify-content: space-evenly;
-    align-items: center;
-    color: #fff;
-}
-
-.intro {
-    margin: 60px;
-    width: 900px;
-    height: 400px;
-    text-align: center;
+.item-img  img {
+    width: 800px;
 }
 
 .title {
@@ -107,31 +47,6 @@ span {
     line-height: 40px;
 }
 
-.download {
-    background-color: #fff;
-    color: #000;
-    padding: 15px;
-    border-radius: 35%;   
-    margin-right: 110px;
-}
-
-.open-browser {
-    background-color: #23272A;
-    padding: 15px;
-    border-radius: 35%;   
-    margin-left: 110px;
-}
-
-.item-even {
-    background-color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 100px;
-    padding-right: 185px;
-    margin: 0 auto;
-}
-
 .description{
 padding: 10px;
 margin: 15px;
@@ -141,16 +56,103 @@ margin-bottom: 40px;
 line-height: 30px;
 }
 
-.item-img {
-    margin-left: 200px;
-    height: 550px;
+ul {
+    list-style-type: none;
+    color: #fff;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+footer {
+    background-color: #23272A;
+}
+
+/* header */
+
+.navigation {
+    padding: 50px;
+}
+
+.logo {
+    
+    vertical-align: middle;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    display: inline;
+}
+
+.nav {
+    width: 601px;
+    text-align: center;
+    vertical-align: middle;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 300px;
+    margin-right: 300px;
+    display: inline;
+}
+
+.login {
+    
+    vertical-align: middle;
+    color: #000;
+    background-color: #fff;
+    font-size: 20px;
+    border-radius: 30px;
+    padding: 10px;
+    text-align: end;
+    display: inline;
+}
+
+/* section */
+
+.introduction {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    display: flex;
+    padding-bottom: 80px;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #fff;
+    padding: 50px;
+}
+
+.intro {
+    margin: 60px;
+    width: 900px;
+    height: 400px;
+    text-align: center;
+}
+
+.download {
+    background-color: #fff;
+    color: #000;
+    padding: 15px;
+    border-radius: 30px;   
+    margin-right: 110px;
+}
+
+.open-browser {
+    background-color: #23272A;
+    padding: 15px;
+    border-radius: 30px;   
+    margin-left: 110px;
+}
+
+.item-even {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    max-width: 80%;
+    margin: 0 auto;
 }
 
 .item-script {
     margin: 60px;
-    margin-left: 130px;
-    margin-right: 2px;
-    width: 35%;
     height: 550px;
 }
 
@@ -159,8 +161,8 @@ line-height: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 100px;
-    padding-right: 185px;
+    padding: 50px;
+    max-width: 80%;
     margin: 0 auto;
 }
 
@@ -170,97 +172,119 @@ line-height: 30px;
     margin-left: 200px;
     width: 35%;
     height: 550px;
-    
-}
-
-.item-img-odd {
-    margin: 60px;
-    margin-left: 0px;
-    margin-right: 200px;
-    width: 70%;
-    height: 550px;
-    align-self: flex-end;
+    max-width: 80%;
+    margin: 0 auto;
 }
 
 .last-item-odd {
     background-color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 100px;
-    padding-right: 185px;
+    padding: 50px;
+    max-width: 80%;
     margin: 0 auto;
+    text-align: center;
 }
 
 .last-item-script {
-    margin: 60px;
-    margin-left: 130px;
-    margin-right: 2px;
-    width: 35%;
-    height: 550px;
+    text-align: center;
+    display: block;
+}
+
+.last-item-img {
     text-align: center;
 }
 
 .last-item-title {
-
+    font-weight: 600;
+    font-size: 35px;
+    margin: 20px;
+    padding-bottom: 40px;
 }
 
+.download-mac {
+    background-color: #8EA1E1;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 20px;
+}   
 
 .interaction {
-    background-color: #23272A;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 10px;
-    padding-bottom: 35px;
-}
-
-.all-int {
-    border:  dashed #000;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    min-width: 80%;
-}
-
-.pink {
-    background-color: #F08080;
-    width: 25%;
-    height: 700px;
-}
-
-.cyan {
-    background-color: #20B2AA;
-    width: 18.75%;
-    height: 700px;
-    border: #fff dashed;
-}
-
-.last-b {
-    margin-top: 2px;
-    background-color: #23272A;
-    padding-top: 50px;
-}
-
-.end {
-    background-color: #7FFFD4;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 0px 35px 0;
-    width: 1000px;
+    padding: 50px 50px 35px 50px;
+    max-width: 80%;
+    width: 100%;
     margin: 0 auto;
 }
 
-.button {
-    background-color: #FFB6C1;
-    border: 2px dashed #000;
-    padding: 5px;
+.all-int {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
 }
 
-.logo-b {
-    background-color: #FFB6C1;
-    border: 2px dashed #000;
-    padding: 5px;
+.int {
+    width: 25%;
+    height: 300px;
+}
+
+.int-title {
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 35px;
+    color: #677CC2;
+}
+
+.int-desc {
+    margin-top: 35px;
+    margin-bottom: 25px;
+    color: #fff;
+}
+
+.flag {
+    width: 25px;
+}
+
+.symbol {
+    margin-left: -15px;
+    color: #fff;
+}
+
+.int-list {
+    width: 18.75%;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.list-title{
+    color: #677CC2;
+}
+
+.border-blu {
+    display: flex;
+    height: 1px;
+    width: 100%;
+    max-width: calc(80% - 100px);
+    margin: 0 auto;
+    background-color: #4A5882;
+    padding: 0;
+}
+
+.end {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 50px;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.singin {
+    vertical-align: middle;
+    color: #fff;
+    background-color: #8EA1E1;
+    font-size: 20px;
+    border-radius: 30px;
+    padding: 10px;
+    text-align: end;
 }
