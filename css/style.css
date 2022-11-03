@@ -14,15 +14,14 @@ body {
 }
 
 header {
-    background-color: #ADD8E6;
+    background-color: #255EE9;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 ;
 }
 
 .navigation {
-    background-color: #DAA520;
     margin: 20px;
 }
 
@@ -30,45 +29,84 @@ div {
     display: inline-table;
 }
 
+span {
+    padding: 15px;
+}
+
 .logo {
-    width: 350px;
-    border: 2px dashed #000;
+    
     vertical-align: middle;
+    color: #fff;
     font-size: 20px;
     padding: 10px;
 }
 
 .nav {
-    width: 400px;
+    width: 601px;
     text-align: center;
-    border: 2px dashed #000;
     vertical-align: middle;
+    color: #fff;
     font-size: 20px;
     padding: 10px;
+    margin-left: 300px;
+    margin-right: 300px;
 }
 
 .login {
-    width: 350px;
-    border: 2px dashed #000;
+    
     vertical-align: middle;
+    color: #000;
+    background-color: #fff;
     font-size: 20px;
+    border-radius: 35%;
     padding: 10px;
     text-align: end;
 }
 
 .introduction {
-    background-color: #00008B;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
     display: flex;
+    padding-bottom: 80px;
     justify-content: space-evenly;
     align-items: center;
+    color: #fff;
 }
 
 .intro {
-    background-color: #EE82EE;
     margin: 60px;
-    border: 2px dashed #000;
     width: 900px;
     height: 400px;
+    text-align: center;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 65px;
+    margin: 20px
+}
+
+.paragraph {
+    padding: 10px;
+    margin: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.download {
+    background-color: #fff;
+    color: #000;
+    padding: 15px;
+    border-radius: 35%;   
+    margin-right: 110px;
+}
+
+.open-browser {
+    background-color: #23272A;
+    padding: 15px;
+    border-radius: 35%;   
+    margin-left: 110px;
 }
 
 .row-even {
